@@ -170,3 +170,81 @@ nav>ul>li>a {
         font-size: 11px
     }
 }
+
+.onegym {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 200px;
+}
+
+.onegym>img{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.onegym>.details{
+    float: left;
+    margin-left: 50px;
+}
+.onegym>.details>h1>a{
+    color: white;
+    text-decoration: underline;
+}
+
+.booking {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.booking > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.booking > form > label{
+    padding-top: 30px;
+}
+.booking > form > input {
+    margin-top: 30px;
+    height: 25px;
+}
+.booking > form > input[type=text] {
+    width: 373px;}
+
+.booking > form > input[type=submit] {
+    width: 500px;
+    height: 50px;
+    background-color: #007CC7;
+    color: white;
+    font-size: 30px;
+}
+.booking > form > select {
+    margin-top: 30px;
+}
+
+.allgym {
+    /* width: 90%; */
+    margin-top: 100px;
+    /* margin-left: 50px; */
+}
+.allgym > .obegym {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.allgym > .obegym >img{
+    height: 200px;
+    width: 350px;
+}
+
+.allgym > .obegym>.det {
+    padding-left: 120px;
+}
+
+.allgym > .obegym>.det > h3 > a{
+    color: white;
+    text-decoration: underline;
+}
