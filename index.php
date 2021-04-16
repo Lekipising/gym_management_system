@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="Front-files/imgs/gym_cover_photo.jpg" />
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="Front-files/assets/css/bootstrap.css">
 
