@@ -15,26 +15,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- User defined CSS -->
-    <link rel="stylesheet" href="Front-files/user-defined-style.css">
+    <link rel="stylesheet" href="Front-files\user-defined-style.css">
 </head>
 
-<header>
+<!-- <header>
     <figure>
         <a href="" target="_blank"><img src="images\pic1.jpeg" width="100%" alt="gym cover photo" id="icon" /></a>
     </figure>
-</header>
+</header> -->
 
 <!-- <hr> -->
 
-<div class="topnav fixed-top" id="top-nav">
+<nav class="topnav fixed-top" id="top-nav">
             <a href="index.php?page=home"><i class="fa fa-home"></i>  Home</a>
-            <a href="index.php?page=about-us"><i class="fa fa-info"></i>  About Us</a>
-            <a href="index.php?page=contact-us"><i class="fa fa-phone"></i>  Contact Us</a>
+            <!-- <a href="index.php?page=about-us"><i class="fa fa-info"></i>  About Us</a> -->
+            <!-- <a href="index.php?page=contact-us"><i class="fa fa-phone"></i>  Contact Us</a> -->
             <a href="index.php?page=gym">Gym</a>
-            <a href="index.php?page=my-activities" class="float-sm-right"><i class="fa fa-tasks"></i>  My Activities</a>
+            <a href="index.php?page=my-activities"><i class="fa fa-tasks"></i>  My Activities</a>
             <a href="index.php?page=my-account" class="float-sm-right"><i class="fa fa-user">  My Account</a>
             <!-- <li> <a href="home.html">Home</a></li> -->
-    </div>
+</nav>
 
 <body>
     <article>
@@ -48,6 +48,8 @@
                     include 'Front-files/contact-us.html';
                 } elseif ($page == 'gym') {
                     include 'Front-files/gym.html';
+                } elseif ($page == 'gym-view') {
+                    include 'Front-files/gymview.html';
                 } elseif ($page == 'book') {
                     include 'Front-files/book.html';
                 } elseif ($page == 'my-activities') {
@@ -98,7 +100,7 @@
     </div>
 
         <div id="copyright">
-            &copyAfrican Leadership University
+            &copy Bits N' Bites
          </div>
     </footer>
 
