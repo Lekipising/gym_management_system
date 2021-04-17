@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Find Your Favorite Gym!</title>
+    <!-- <title>Find Your Favorite Gym!</title> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -32,7 +32,6 @@
             <a href="index.php?page=gym">Gym</a>
             <a href="index.php?page=my-activities"><i class="fa fa-tasks"></i>  My Activities</a>
             <a href="index.php?page=my-account" class="float-sm-right"><i class="fa fa-user">  My Account</a>
-            <a href="Front-files/book.html">Boook</a>
             <!-- <li> <a href="home.html">Home</a></li> -->
 </nav>
 
