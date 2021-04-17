@@ -17,13 +17,6 @@
     <link rel="stylesheet" href="Front-files\user-defined-style.css">
 </head>
 
-<!-- <header>
-    <figure>
-        <a href="" target="_blank"><img src="images\pic1.jpeg" width="100%" alt="gym cover photo" id="icon" /></a>
-    </figure>
-</header> -->
-
-<!-- <hr> -->
 
 <nav class="topnav fixed-top" id="top-nav">
             <a href="index.php?page=home"><i class="fa fa-home"></i>  Home</a>
